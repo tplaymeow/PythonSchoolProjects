@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import datetime
 SrtdNums = []
 i = 0
@@ -15,7 +16,7 @@ try:
     doc.write("\n")
     doc.write(str(SrtdNums)+str(datetime.datetime.now()))
 except:
-    print("Error")
+    print("Ошибка")
 finally:
     doc.close()
 SrtdNums.sort()
